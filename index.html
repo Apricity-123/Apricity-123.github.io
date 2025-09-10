@@ -1,10 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-  <title>My First Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VAMOS的博客</title>
+    <link rel="stylesheet" href="index.css" />   <!--链接CSS文件-->
 </head>
 <body>
-  <h1>Hello, World!</h1>
-  <p>This is my first GitHub Pages site!</p>
+    <div class="page"> 
+        <header class="nav">
+            <a href="index.html" class="logo fl">首页</a>
+            <ul class="fr">
+                <li><a href="index.html" style="font-size: larger; color: aliceblue;">课题组首页 </a></li>
+                <li><a href="teacher.html"  style="font-size: larger; color: aliceblue;" >导师信息</a></li>
+                <li><a href="student.html" style="font-size: larger; color: aliceblue;">团队成员</a></li>
+                <li><a href="result.html" style="font-size: larger; color: aliceblue;">成果及论文</a></li>
+                <li><a href="activity.html" style="font-size: larger; color: aliceblue;">组内活动</a></li>
+                <li><a href="contact.html" style="font-size: larger; color: aliceblue;">联系我们</a></li>
+            </ul>
+        </header>
+        <main class="mid">
+            <div class="banner"><img src="合照1.jpg" alt="Banner" /></div>
+            <div class="left fl">
+                <p class="title">关于课题组</p>
+                <div class="jj">
+                    <img src="公众号.jpg" alt="头像" />
+                    <p><b>VAMOS课题组</b></p>
+                    <p><b>网站链接：</b> <a href="https://m.x-mol.com/groups/Yang_peiqi">https://m.x-mol.com/groups/Yang_peiqi</a></p>
+                    <p><b>地址：</b>南京师范大学老北区地科院</p>
+                    <p><b>研究方向：</b>定量遥感、辐射传输建模、激光雷达遥感、遥感应用</p>
+                </div>
+                <p class="title">欢迎登录访问</p>
+                <form action="#" class="login" method="post">
+                    <input type="text" placeholder="请输入用户名" required />
+                    <input type="password" placeholder="请输入密码" name="password" required />
+                    <button type="submit">登录</button>
+                </form>
+            </div>
+            <div class="right fl">
+                <p class="title">代表性论文</p>
+                <div class="wz">
+                <p>1.Yang, P.*, van der Tol, C., Liu, J., & Liu, Z. (2025). Separation of the direct reflection of soil from canopy spectral reflectance. Remote Sensing of Environment, 316, 114500 https://doi.org/10.1016/j.rse.2024.114500</p> 
+                <p>2.Yang, P.*, 2024. Downscaling canopy photochemical reflectance index to leaf level by correcting for the soil effects. Remote Sensing of Environment, 311, p.114250.  https://doi.org/10.1016/j.rse.2024.114250</p>
+                <p>3.Yang, P. *, (2022), Exploring the interrelated effects of soil background, canopy structure and sun-observer geometry on canopy photochemical reflectance index. Remote Sensing of Environment, 279, 113133. https://doi.org/10.1016/j.rse.2022.113133</p>
+                <p>4.Yang, P., Prikaziuk, E., Verhoef, W., & van Der Tol, C.* (2021). SCOPE 2.0: A model to simulate vegetated land surface fluxes and satellite signals. Geoscientific Model Development, 14(7), 4697-4712. https://doi.org/10.5194/gmd-14-4697-2021</p>
+                <p>5.Yang, P.*, Van der Tol, C., Campbell, P. K., & Middleton, E. M. (2021). Unravelling the physical and physiological basis for the solar-induced chlorophyll fluorescence and photosynthesis relationship. Biogeosciences, 1-32.https://doi.org/10.5194/bg-18-441-2021</p>
+                </div>
+            </div>
+        </main>
+        <footer class="foot">版权所属：VAMOS课题组 &emsp; 团队网页</footer>
+    </div>
 </body>
 </html>
